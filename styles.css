@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+
+section {
+  width: 610px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 300px;
+  min-height: 250px;
+  position: relative;
+  border: 2px solid orange;
+  border-left: 40px solid orange;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: small;
+  display: inline-block;
+}
+
+.wrapper h3 {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 42%;
+  left: 0;
+  margin-left: -84px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0 50%;
+  -moz-transform-origin: 0 0 50%;
+  -ms-transform-origin: 0 0 50%;
+  -o-transform-origin: 0 0 50%;
+  transform-origin: 0 0 50%;
+}
+
+body .contact-us {
+  background-color: #ed1a3b;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-right: -36px;
+  transition: 0.2s;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+body .contact-us:hover {
+  background-color: #231f20;
+  color: #ed1a3b;
+  margin-right: -34px;
+}
